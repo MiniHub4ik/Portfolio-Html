@@ -1,0 +1,234 @@
+body{
+    background: linear-gradient(to right, #BD2F00, #8F8F00);
+}
+
+.top-banner {
+  width: 100%;
+  background-color: #111; /* or any color you want */
+  padding: 30px 0;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.top-banner h1 {
+  color: white;
+  font-family: 'Luckiest Guy', cursive;
+  font-size: 48px;
+  margin: 0;
+}
+
+
+
+
+
+.container {
+  display: flex; /* Включаем flex */
+  justify-content: center; /* Центрируем по горизонтали */
+  gap: 20px; /* Расстояние между блоками */
+  margin-top: 50px;
+}
+
+#my_skills{
+    color: white;
+    text-align: center;
+    font-family: 'Luckiest Guy';
+    font-size: 40px;
+
+}
+
+#my_projects{
+    font-family: 'Luckiest Guy';
+    text-align: center;
+    font-size: 40px;
+    color: white;
+}
+
+
+.box {
+  font-family: 'Luckiest Guy';
+  text-align: center;
+  line-height: 100px; /* Центрирует текст по вертикали */
+  border-radius: 10px;
+  height: 300px;
+  width: 350px;
+  background-color: grey;
+  text-align: center;
+  border-radius: 10px;
+  transition: all 0.3s ease;
+  font-size: 25px;
+
+}
+
+.box:hover {
+  transform: scale(1.05); /* Чуть увеличить */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); /* Свечение (тень) */
+}
+
+.logos{
+    width: 40px;
+    height: 40px;
+    margin-bottom: 5em;
+
+}
+.title {
+  font-size: 28px;
+  font-family: 'Luckiest Guy', cursive;
+  margin-bottom: 10px;
+  margin-top: 20px;
+  color: white;
+}
+
+.description {
+  font-size: 16px;
+  font-family: Arial, sans-serif;
+  line-height: 1.5;
+  padding: 0 15px;
+  color: white;
+}
+
+#html_logo{
+    margin-top: 1em;
+}
+
+#my_projects {
+  text-align: center;
+  color: white;
+  font-family: 'Luckiest Guy';
+  font-size: 36px;
+  margin-top: 60px;
+}
+
+.projects-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+  margin-top: 30px;
+}
+
+.project-card {
+  background-color: #444;
+  color: white;
+  width: 300px;
+  padding: 20px;
+  border-radius: 15px;
+  text-align: center;
+  font-family: Arial;
+  transition: 0.3s ease;
+}
+
+.project-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
+}
+
+.download-btn {
+  display: inline-block;
+  margin-top: 15px;
+  padding: 10px 20px;
+  background-color: #BD2F00;
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: bold;
+}
+
+.download-btn:hover {
+  background-color: #8F8F00;
+}
+.footer {
+  background-color: #111;
+  color: white;
+  padding: 40px 20px;
+  font-family: Arial, sans-serif;
+  margin-top: 80px;
+  border-radius: 10px;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  max-width: 1000px;
+  margin: 0 auto;
+  gap: 30px;
+}
+
+.footer-about,
+.footer-contact {
+  flex: 1 1 400px;
+}
+
+.footer h3 {
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+
+.footer p,
+.footer li {
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.footer a {
+  color: #FF8C00;
+  text-decoration: none;
+
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}
+
+
+@media (max-width: 768px) {
+  .container,
+  .projects-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .box,
+  .project-card {
+    width: 90%;
+    height: auto;
+    line-height: normal;
+    padding: 20px 10px;
+  }
+
+  .top-banner h1 {
+    font-size: 32px;
+  }
+
+  #my_skills,
+  #my_projects {
+    font-size: 28px;
+  }
+
+  .footer-container {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .footer-about,
+  .footer-contact {
+    width: 100%;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
