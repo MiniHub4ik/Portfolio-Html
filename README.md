@@ -59,3 +59,10 @@ Web-based grammar checking tool. Users paste their text or essay and receive gra
    ```bash
    git clone https://github.com/MiniHub4ik/portfolio.git
    cd portfolio
+
+
+   ## 🤝 Author
+
+Made with ❤️ by Nematilla.\
+Telegram: https://t.me/nematilla \
+GitHub: https://github.com/MiniHub4ik
